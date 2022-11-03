@@ -1,0 +1,61 @@
+[
+  {
+    "class": "GroupUpload",
+    "action": "delete",
+    "filter_parameters": {}
+  },
+    {
+    "class": "ExerciseUpload",
+    "action": "delete",
+    "filter_parameters": {}
+  },
+    {
+    "class": "Student",
+    "action": "delete",
+    "filter_parameters": {}
+  },
+    {
+    "class": "Tutor",
+    "action": "delete",
+    "filter_parameters": {}
+  },
+    {
+    "class": "TutorGroup",
+    "action": "delete",
+    "filter_parameters": {}
+  },
+  {
+  "class": "GroupUpload",
+  "action": "create",
+  "tag": "",
+  "filter_parameters": {},
+  "parameters": {
+    "student_file": "submodels/applicant_task_tutor_group/Tests/StudentUpload.xlsx",
+    "tutor_file": "submodels/applicant_task_tutor_group/Tests/TutorUpload.xlsx",
+    "group_file": "submodels/applicant_task_tutor_group/Tests/GroupUpload.xlsx"
+  }
+},
+  {
+  "class": "ExerciseUpload",
+  "action": "create",
+  "tag": "",
+  "filter_parameters": {},
+  "parameters": {
+    "exercise_file": "submodels/applicant_task_tutor_group/Tests/Exercise1.xlsx",
+    "exercise": "Exercise 1",
+    "max_points": 10
+  }
+},
+  {
+  "class": "ExerciseUpload",
+  "action": "create",
+  "tag": "",
+  "filter_parameters": {},
+  "parameters": {
+    "exercise_file": "submodels/applicant_task_tutor_group/Tests/Exercise2.xlsx",
+    "exercise": "Exercise 2",
+    "max_points": 10
+  }
+}
+
+]
