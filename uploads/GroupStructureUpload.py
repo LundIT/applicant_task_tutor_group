@@ -11,14 +11,7 @@ class GroupStructureUpload(UploadModelMixin, Model):
 
     def update(self):
         try:
-            groups = pd.read_excel(self.group_file.file)
+            tutor_groups = pd.read_excel(self.group_file.file)
         except AttributeError:
             pass
-        try:
-            tutors = pd.read_excel(self.tutor_file.file)
-        except AttributeError:
-            pass
-        try:
-            students = pd.read_excel(self.student_file.file)
-        except AttributeError:
-            pass
+
